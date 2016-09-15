@@ -6,9 +6,16 @@ TODO: and "I validate with bean 'validationBean'" => @IValidate(withBean="valida
 ## Usage
 ```
 public Class form {
-@IValidate(with=A.class)
+@IValidate(with=NameValidator.class)
 private String name;
 ...
 }
 
+(OR)
 
+public Class form {
+@IValidate(withBean="nameValidatorBeanId")
+private String name;
+...
+}
+```
