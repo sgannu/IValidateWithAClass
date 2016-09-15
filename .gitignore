@@ -1,0 +1,7 @@
+a.*
+.classpath
+.project
+.settings
+.vscode
+bin
+build
